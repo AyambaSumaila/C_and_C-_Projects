@@ -1,1 +1,0 @@
-C++ Book Authors Database 
