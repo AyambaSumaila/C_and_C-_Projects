@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+      <FILENAME>project_02.cpp.cpp</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'divisionSales'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'divisionSales' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'division&lt;6')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>71</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'divisionSales' is an Output from 'DivisionSales::addSales' (declared on line 24)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>G:\Python\C++ Resources\C_programs\source-code-C++\project_02.cpp\</FILEPATH>
+        <FILENAME>project_02.cpp.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'divisionSales' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
